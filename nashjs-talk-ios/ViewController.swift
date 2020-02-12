@@ -7,15 +7,17 @@
 //
 
 import UIKit
+// STEP 1: IMPORT WEBKIT
 import WebKit
 
 class ViewController: UIViewController, WKScriptMessageHandler {
     
+    // STEP 2: DEFINE A WEBVIEW VARIABLE
     var webView:WKWebView?
     
     override func loadView() {
         super.loadView()
-         //STEP 1: INITIALIZE A WEBVIEW
+         //STEP 3: INITIALIZE A WEBVIEW
         let webConfiguration = WKWebViewConfiguration();
         webView = WKWebView(frame: .zero, configuration: webConfiguration);
         view = webView
@@ -24,13 +26,14 @@ class ViewController: UIViewController, WKScriptMessageHandler {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // INITIALIZE OUR SCRIPT TO RECEIVE JS MESSAGES FROM THE WEBVIEW
         initContentController()
         
-        // STEP 2: CREATE A FILE URL TO THE INDEX.HTML FILE
+        // STEP 4: CREATE A URL PATH (FILE OR WEB URL) TO THE INDEX.HTML FILE
         let url = Bundle.main.url(forResource: "index", withExtension: "html", subdirectory: "build")
-        // STEP 3: CONVERT THE URL TO A URLREQUEST
+        // STEP 5: CONVERT THE URL TO A URLREQUEST
         let urlReq = URLRequest(url: url!);
-        // STEP 4: LOAD THE URLREQUEST IN THE WEBVIEW
+        // STEP 6: LOAD THE URLREQUEST IN THE WEBVIEW
         webView?.load(urlReq)
         
     }
