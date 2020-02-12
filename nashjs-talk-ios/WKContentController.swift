@@ -30,7 +30,7 @@ extension ViewController {
         config.userContentController = contentController!
     }
     
-//    CALLED WHEN A MESSAGE HANDLER IS CALLED.
+//    FIRES WHEN A MESSAGE HANDLER IS CALLED.
 //    LOOKS AT THE MESSAGE NAME TO EXECUTE THE DESIRED CASE
     
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
