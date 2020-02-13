@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F92A17623F5A2D20083D382 /* build in Resources */ = {isa = PBXBuildFile; fileRef = 4F92A17523F5A2D20083D382 /* build */; };
 		4FADBADA23F37E790024F0F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FADBAD923F37E790024F0F6 /* AppDelegate.swift */; };
 		4FADBADC23F37E790024F0F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FADBADB23F37E790024F0F6 /* SceneDelegate.swift */; };
 		4FADBADE23F37E790024F0F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FADBADD23F37E790024F0F6 /* ViewController.swift */; };
@@ -15,10 +16,10 @@
 		4FADBAE623F37E7C0024F0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FADBAE423F37E7C0024F0F6 /* LaunchScreen.storyboard */; };
 		4FADBAF023F3C96B0024F0F6 /* WKContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FADBAEF23F3C96B0024F0F6 /* WKContentController.swift */; };
 		4FADBAF223F3E8BD0024F0F6 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FADBAF123F3E8BD0024F0F6 /* HelperFunctions.swift */; };
-		4FADBAF423F3E9980024F0F6 /* build in Resources */ = {isa = PBXBuildFile; fileRef = 4FADBAF323F3E9980024F0F6 /* build */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F92A17523F5A2D20083D382 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
 		4FADBAD623F37E780024F0F6 /* nashjs-talk-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nashjs-talk-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FADBAD923F37E790024F0F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FADBADB23F37E790024F0F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		4FADBAE723F37E7C0024F0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FADBAEF23F3C96B0024F0F6 /* WKContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKContentController.swift; sourceTree = "<group>"; };
 		4FADBAF123F3E8BD0024F0F6 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
-		4FADBAF323F3E9980024F0F6 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; name = build; path = "../../to-do-app/build"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 		4FADBAD823F37E780024F0F6 /* nashjs-talk-ios */ = {
 			isa = PBXGroup;
 			children = (
-				4FADBAF323F3E9980024F0F6 /* build */,
+				4F92A17523F5A2D20083D382 /* build */,
 				4FADBAD923F37E790024F0F6 /* AppDelegate.swift */,
 				4FADBADB23F37E790024F0F6 /* SceneDelegate.swift */,
 				4FADBADD23F37E790024F0F6 /* ViewController.swift */,
@@ -135,7 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FADBAE623F37E7C0024F0F6 /* LaunchScreen.storyboard in Resources */,
-				4FADBAF423F3E9980024F0F6 /* build in Resources */,
+				4F92A17623F5A2D20083D382 /* build in Resources */,
 				4FADBAE323F37E7C0024F0F6 /* Assets.xcassets in Resources */,
 				4FADBAE123F37E790024F0F6 /* Main.storyboard in Resources */,
 			);
