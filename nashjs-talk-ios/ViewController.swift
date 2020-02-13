@@ -27,7 +27,7 @@ class ViewController: UIViewController, WKScriptMessageHandler {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // INITIALIZE OUR SCRIPT TO RECEIVE JS MESSAGES FROM THE WEBVIEW
+        // INITIALIZE OUR SCRIPT TO RECEIVE JS MESSAGES FROM THE WEBVIEW. (THIS FUNCTION DEFINITION IS IN WKContentController.swift)
         initContentController()
         
         // STEP 4A: CREATE A FILE PATH URL TO THE INDEX.HTML FILE
