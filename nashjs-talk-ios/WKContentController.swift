@@ -1,4 +1,10 @@
-
+//
+//  WKContentController.swift
+//  nashjs-talk-ios
+//
+//  Created by Jessie Wooten on 2/12/20.
+//  Copyright © 2020 JessieWooten. All rights reserved.
+//
 
 import Foundation
 import WebKit
