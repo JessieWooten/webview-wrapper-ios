@@ -12,5 +12,14 @@ https://developer.apple.com/xcode/
 
 
 
-Here's a helpful tutorial for building a swift webview app:
+Here's a helpful tutorial for building a Swift webview app:
 https://www.hackingwithswift.com/read/4/2/creating-a-simple-browser-with-wkwebview
+
+
+If you wanted to build somthing similar for Android, you would build a webview wrapper app in Java. 
+Here is a tutorial for that: 
+https://developer.chrome.com/multidevice/webview/gettingstarted
+To build an Android app, you will use need to have Android Studio installed:
+https://developer.android.com/studio
+
+Good luck!
